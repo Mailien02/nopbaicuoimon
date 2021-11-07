@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.container01{
+	width: 100%;
+/*	height: 300px;*/
+	
+/*	height: 100vh;*/
+	background-color: white;
+}
+
+
+.noidung{
+	width: 1600px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+
+.carousel-inner{
+	height: 630px;
+}
+
+.banner{
+	width: 1600px;
+	background-color: white;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color:#002F50;
+	
+	
+	
+}
+
+
+
+
+
+
+/*LOGO*/
+.nav{
+	width: 1600px;
+	margin: 0 auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+/*	background-color:midnightblue;*/
+	float: left;
+	
+}
+
+.logo img{
+	width: 100px;
+	margin: 5px 100px;
+}
+
+
+
+
+
+
+
+
+/*MENU*/
+.menu{
+	width: 70%;
+	height: 70px;
+/*	background-color:coral;*/
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin-left: 15px;
+}
+.menu li{
+	display:inline-block;
+	line-height:100px;
+	margin:0 2px;
+	font-size: 15pt;
+}
+.menu li a{
+	text-decoration: none;
+}
+.menu li a{
+	margin: 0 15px;
+	color:coral;
+	font-weight:bold;
+	font-size: 13pt;
+}
+
+.menu li a:hover{
+	text-decoration: none;
+}
+
+
+
+/*text-banner*/
+.item img{
+	position: relative;
+}
+.text-banner{
+	width: 1600px;
+	margin-top:  150px;
+	margin-left: 50px;
+	position: absolute;
+	color: white;
+	z-index: 9999;
+}
+
+.text-banner h2{
+	color: #00BFD7;
+	font-weight: bold;
+	
+}
+
+
+
+/*TIMKIEM*/
+.container{
+/*	background-color:aqua;*/
+	color:#404040;
+	
+}
+
+.bt-1{
+	width: 850px;
+	height: 50px;
+}
+
+.chondiadiem{
+	height: 35px;
+	width: 300px;
+	border-radius: 15px; 
+	font-weight:bold;
+	margin-left: 20px;
+}
+
+.timkiemngay{
+	height: 35px;
+	width: 150px;
+	border-radius: 15px;
+	background-color:aquamarine;
+	font-weight:bold;
+}
+
+
+
+
+
+
+/*season2 icon*/
+
+
+
+
+
+
+
+
+.header .timkiem{
+	width: 100%;
+	
+}
+
+
+
+/*chu va hinh*/
+/*bai8*/
+.chuvahinh{
+	width: 1600px;
+	height: 500px;
+/*	background:#00A474;*/
+}
+
+.nd-left{
+	width: 50%;
+	height: 700px;
+/*	background: #91BE83;*/
+	float: left;
+	
+}
+.left-text{
+	margin: 140px 120px;
+}
+
+.nd-right {
+	width: 50%;
+	height: 700px;
+/*	background: #AC6869;*/
+	float: right;
+	
+}
+.xe{
+	
+	animation: animxe 7s 3s linear infinite;
+	position:absolute;
+	
+}
+
+@keyframes animxe{
+	0%{
+		
+		right: 10px;
+	}
+	100%{
+		
+		left: 100px;
+	}
+}
+
+
+.xe img{
+	width: 400px;
+	position: relative;
+	z-index: 100;
+	float: right;
+	margin-top:280px;
+	margin-left:800px;
+	margin-right:50px;
+}
+.cay{
+	position: absolute;
+}
+.cay img{
+	width: 330px;
+	position: relative;
+	z-index: 999;
+	float: right;
+	margin: 100px 300px;
+}
+
+
+
+
+
+/*card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+	float:left;
+	margin: 1%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+
+/*parallax*/
+
+.parallax{
+	animation: animtext02 3s 5s linear infinite;
+}
+@keyframes animparallax{
+	0%{
+		transform: scale(0);
+		opacity: 0;
+	}
+	20%{
+		transform: scale(1);
+		opacity: 1;
+	}
+	40%{
+		transform: scale(0);
+		opacity: 0;
+	}
+	60%{
+		transform: scale(1);
+		opacity: 1;
+	}
+	100%{
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*feature*/
+.feature{
+	width: 1600;
+	height: 450px;
+	background-color:antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.feature-item{
+	width: 25%;
+	height: 300px;
+	background-color:blueviolet;
+	float: left;
+	margin: 1%;
+}
+
+
+
+
+/*pic*/
+.pic{
+	width: 100%;
+	height: 400px;
+/*	background: #BD6C6D;*/
+	margin-top: 100px;
+	
+}
+
+.pic-item{
+	width: 25%;
+	height:200px;
+	background: gray;
+	float:left;
+	overflow: hidden;
+	position: relative;
+}
+
+.pic-item img{
+	transform: scale(1);
+	transition: all .2s linear;
+	opacity: 1;
+}
+
+.pic-item:hover img{
+	transform: scale(1.2);
+	opacity: .5;
+}
+
+.icon{
+	width: 100px;
+	height: 100px;
+	background: #008669;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.pic-item .icon{
+	opacity: 0;
+	transition: all .3s linear;
+	bottom: -100px;
+}
+
+.pic-item:hover .icon{
+	opacity: 1;
+	bottom: 100px;
+}
+
+
+
+
+
+/*bai7*/
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+/*	background: #010B12;*/
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cuoi{
+	width: 200px;
+	height: 500px;
+	margin: 10px 60px;
+}
+
+.cuoi a{
+	font-size: 15pt;
+}
